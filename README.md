@@ -21,7 +21,7 @@ yarn add eleventy-plugin-jsx
 
 ## Usage
 
-First, add the plugin to your config. The plugin will automatically compile any files given to it with a `.jsx` extension using Babel and server-side render the page.
+First, add the plugin to your config. The plugin will automatically compile any files given to it with a `.jsx` extension server-side render the page.
 
 ```js
 // .eleventy.js
@@ -70,3 +70,7 @@ ELEVENTY_EXPERIMENTAL=true npx @11ty/eleventy
 ```
 
 **Note**: Since this plugin currently relies on experimental Eleventy APIs, running the build requires using the `ELEVENTY_EXPERIMENTAL=true` CLI flag.
+
+## Versioning of React packages
+
+`react`, `react-dom`, and `react-helmet` are included as dependencies of this package. Under the hood, Babel will automatically rewrite the import statements to point to these dependencies to ensure that the same version of these packages are used during the server-side rendering process.
