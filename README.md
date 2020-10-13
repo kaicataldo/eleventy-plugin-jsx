@@ -21,7 +21,7 @@ yarn add eleventy-plugin-jsx
 
 ## Usage
 
-First, add the plugin to your config. The plugin will automatically compile any files given to it with a `.jsx` extension server-side render the page.
+First, add the plugin to your config. The plugin will automatically compile any files given to it with a `.jsx` extension and server-side render the page.
 
 ```js
 // .eleventy.js
