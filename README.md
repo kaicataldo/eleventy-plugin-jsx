@@ -18,7 +18,7 @@ yarn add eleventy-plugin-jsx
 
 ## Usage
 
-First, add the plugin to your config. The plugin will automatically compile any files given to it with a `.js` or `.jsx` extension using Babel and server-side render the page.
+First, add the plugin to your config. The plugin will automatically compile any files given to it with a `.jsx` extension using Babel and server-side render the page.
 
 ```js
 // .eleventy.js
@@ -37,7 +37,7 @@ module.exports = function (eleventyConfig) {
 ```
 
 ```js
-// src/pages/index.js OR src/pages/index.jsx
+// src/pages/index.jsx
 
 import React from "react";
 import ParentLayout from "../layouts/ParentLayout";
