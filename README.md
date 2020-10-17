@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/eleventy-plugin-jsx.svg?style=flat-square)](https://www.npmjs.com/package/eleventy-plugin-jsx/)
 [![node](https://img.shields.io/node/v/eleventy-plugin-jsx.svg?style=flat-square)](https://nodejs.org/en/)
 
-A plugin that allows you to use JSX as a templating language for Eleventy. This is currently experimental, and relies on unstable Eleventy APIs.
+A plugin that allows you to use JSX as a templating language for Eleventy, using JavaScript or TypeScript. This is currently experimental, and relies on unstable Eleventy APIs.
 
 This plugin is purposefully limited to using JSX as a templating language for static sites. If you're interested in a more Gatsby or Next-like experience with hydration of interactive components on the client, check out [`eleventy-plugin-react`](https://github.com/kaicataldo/eleventy-plugin-react)!
 
@@ -21,7 +21,7 @@ yarn add eleventy-plugin-jsx
 
 ## Usage
 
-First, add the plugin to your config. The plugin will automatically compile any files given to it with a `.jsx` extension and server-side render the page.
+First, add the plugin to your config. The plugin will automatically compile any files given to it with a `.jsx` or `.tsx` extension and server-side render the page. TypeScript is supported out of the box!
 
 ```js
 // .eleventy.js
