@@ -42,7 +42,6 @@ module.exports = function (eleventyConfig) {
 ```js
 // src/pages/index.jsx
 
-import React from "react";
 import ParentLayout from "../layouts/ParentLayout";
 import ChildComponent from "../components/ChildComponent";
 
