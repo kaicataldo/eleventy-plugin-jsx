@@ -29,8 +29,8 @@
     "babel-plugin-module-resolver": "^4.0.0",
     "dedent": "^0.7.0",
     "pirates": "^4.0.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
